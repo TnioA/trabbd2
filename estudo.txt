@@ -1,8 +1,20 @@
-banco de dados noSQL estruturado como chave = valor
+banco de dados noSQL de codigo aberto licença BSB 
+desenvolvido em C (padrão C99) com projeto iniciado em (2009)
+por Salvatore Sanfilippo
+estruturado como banco de dados chave-valor avançado
 
 
+valores unicos
+valores em listas
+valores em conjuntos
 
 a instalação do redis é dividida em server e client, tem de se instalar os dois 
 e a instalação é bem simples basta ir dando next
 
 
+data-set em memoria-ram
+persistencia em disco
+replicacao mestre-escravo
+
+
+https://redis.io/
