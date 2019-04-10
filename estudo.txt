@@ -1,4 +1,4 @@
-banco de dados noSQL de codigo aberto licença BSB 
+﻿banco de dados noSQL de codigo aberto licença BSB 
 desenvolvido em C (padrão C99) com projeto iniciado em (2009)
 por Salvatore Sanfilippo
 estruturado como banco de dados chave-valor avançado
@@ -18,3 +18,19 @@ replicacao mestre-escravo
 
 
 https://redis.io/
+https://imasters.com.br/
+https://aws.amazon.com/pt/
+
+Algumas empresas disponibilizam serviços em seus portais para o uso de redis como Amazom e Azure;
+
+
+
+Redis é um open source (licenciado pelo BSD), estrutura armazenamento de dados na memória , usado como banco de dados, cache e message broker. Ele suporta estruturas de dados, tais como strings , hashes , listas , sets , sorted-sets com consultas alcance, bitmaps , hyperloglogs , índices geoespaciais com consultas de raio e córregos . O Redis possui replicação integrada , scripts Lua , remoção de LRU , transações e diferentes níveis de persistência em disco , e fornece alta disponibilidade viaRedis Sentinel e particionamento automático com o Redis Cluster .
+
+
+
+Em outras palavras, Redis é um cache em memória que faz mais do que um cache normal (como o memcached) e menos que um banco de dados NoSql (como o MongoDB). O Redis preenche esse campo intermediário e funciona muito bem como um armazenamento chave-valor, mas também aceita outras estruturas de dados, como Lists, Sets, Sorted Sets, Hashes e Bitmap. Além disso, também tem outras funcionalidades como transações e pubsub.
+
+Mas apesar de ter tudo disso, ainda é um cache em memória, ou seja, se o serviço parar, todos os dados são perdidos*. É importante saber que Redis é otimizado para ter uma latência baixíssima e pode não estar sempre consistente. É o que se chama de consistência eventual.
+
+O Redis consegue persistir os dados de memória de diversas maneiras (documentação), mas isso ainda não é suportado pelo cache Redis do Azure. Já existe um pedido no uservoice pra habilitar isso.
