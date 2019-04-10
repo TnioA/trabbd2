@@ -1,0 +1,8 @@
+banco de dados noSQL estruturado como chave = valor
+
+
+
+a instalação do redis é dividida em server e client, tem de se instalar os dois 
+e a instalação é bem simples basta ir dando next
+
+
